@@ -26,6 +26,5 @@
         "psr-0": {
             "Impgds\\RocketShipIt\\": "src"
         }
-    },
-    
+    }
 }
