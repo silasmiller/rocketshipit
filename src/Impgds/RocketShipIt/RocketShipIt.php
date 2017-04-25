@@ -49,7 +49,7 @@ class RocketShipIt
             return $this->httpRequest($data);
         }
         
-        if (function_exists('rocketshipit_request')) {
+       /* if (function_exists('rocketshipit_request')) {
             // RocketShipIt PHP extension is installed, use that.
             $result = rocketshipit_request(json_encode($data));
             $resp = json_decode($result, true);
@@ -66,6 +66,7 @@ class RocketShipIt
 
             return $this->response;
         }
+        */
         if (file_exists(__DIR__. '/RocketShipIt')) {
             $this->binWorkingDir = __DIR__.'/';
             $this->binPath = __DIR__. '/RocketShipIt';
