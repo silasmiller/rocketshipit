@@ -1,5 +1,6 @@
 {
     "name": "impgds/rocketshipit",
+    "minimum-stability": "dev",
     "description": "RocketShipIt Composer",
     "keywords": ["rocketshipit"],
     "homepage": "",
